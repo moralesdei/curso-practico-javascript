@@ -1,0 +1,32 @@
+* Perimetro del cuadrado.
+
+Cuanto mide el borde de todos los lados del cuadrado.
+
+Sumamos cuanto miden cada lado, conociendo el valor de uno es suficiente multiplicando el
+valor de un lado por cuatro.
+
+L * 4
+
+* Area del cuadrado
+
+No es una sola dimensión, ya son dos dimensiones.
+
+L ^ 2 
+
+* Perimetro del triángulo.
+
+Sumamos los tres lados:
+
+L + L + L
+
+* Área del triángulo
+
+(b * h) / 2
+
+* Perimetro de un círculo
+
+Diámetro * pi.
+
+* Área del círculo
+
+( radio ^ 2 ) * pi
