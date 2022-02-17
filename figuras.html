@@ -7,7 +7,49 @@
     <title>Figuras geométricas</title>
 </head>
 <body>
-    <h1> Figuras geométricas </h1>
+    <header>    
+        <h1> Figuras geométricas </h1>
+    </header>
+    <section>
+        <header>
+            Calculos cuadrado:
+        </header>
+        <form>
+            <label for="side">Ingresa el valor de un lado (cm): </label>
+            <input type="number" id="side" name="side">
+            <input type="button" onclick="calcPerimeterSquare()" value="Calcular perimetro">
+            <input type="button" onclick="calcAreaSquare()" value="Calcular area">
+        </form>
+    </section>
+    <br>
+    <section>
+        <header>
+            Calculos triangulo:
+        </header>
+        <form>
+            <label for="sideA">Ingresa el valor del lado A (cm): </label>
+            <label for="sideB">Ingresa el valor del lado B (cm): </label>
+            <label for="base">Ingresa el valor de la base (cm): </label>
+            <input type="number" id="sideA" name="sideA">
+            <input type="number" id="sideB" name="sideB">
+            <input type="number" id="base" name="base">
+            <br>
+            <input type="button" onclick="calcPerimeterTriangle()" value="Calcular perimetro">
+            <input type="button" onclick="calcAreaTriangle()" value="Calcular area">
+        </form>
+    </section>
+    <br>
+    <section>
+        <header>
+            Calculos circulo:
+        </header>
+        <form>
+            <label for="radio">Ingresa el valor del radio (cm): </label>
+            <input type="number" id="radio" name="radio">
+            <input type="button" onclick="calcPerimeterCircle()" value="Calcular perimetro">
+            <input type="button" onclick="calcAreaCircle()" value="Calcular area">
+        </form>
+    </section>
     <script src="figuras.js"></script>
 </body>
 </html>
